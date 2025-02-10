@@ -157,6 +157,7 @@ p {
   line-height: 1.5;
   margin-bottom: 0;
   color: var(--pra);
+  text-align: justify;
 }
 
 .progress-wrap.active-progress {
