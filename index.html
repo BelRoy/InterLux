@@ -3,7 +3,7 @@
 
 <!--<< Header Area >>-->
 
-<head>
+<head><meta name="google-site-verification" content="SrdP2aktyHS_LLVjgV7AQqHCtKSW_oN0cu6JhXmwDOo" />
    <!--<< Required meta tags >>-->
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +23,9 @@
 <!--<< Body Area >>-->
 
 <body>
-
+<body oncopy="return false">
+<body onselectstart="return false">
+<body oncontextmenu="return false">
    <!--<< Preloader >>-->
    <div class="preloader__Dixon">
       <div class="box text-center">
@@ -182,7 +184,7 @@
                <img src="assets/img/banner/banner-profile.png" alt="img" class="round10">
             </div>
             <span class="fz-20 d-block text-center fw-500 white">
-               support@interlux.com
+               support@interlux.site
                <span class="d-block">
                   
                </span>
@@ -802,7 +804,7 @@
                           
                         </a>
                         <a href="#">
-                           support@interlux.com
+                           support@interlux.site
                         </a>
                      </div>
                     
@@ -873,6 +875,22 @@
    <!--<< Wow Animation js >>-->
    <script src="assets/js/main.js"></script>
    <!--<< Main.js >>-->
+
+    <script>
+        document.addEventListener("keydown", function (event) {
+            if (event.ctrlKey && (event.key === "u" || event.key === "U" || event.key === "s" || event.key === "S")) {
+                event.preventDefault();
+            }
+            if (event.key === "F12" || (event.ctrlKey && event.shiftKey && event.key === "I")) {
+                event.preventDefault();
+            }
+        });
+
+        document.addEventListener("contextmenu", function (event) {
+            event.preventDefault();
+        });
+    </script>
+    
 </body>
 
 </html>
