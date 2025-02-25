@@ -1,0 +1,11 @@
+Sitemap: https://interlux.site/sitemap.xml
+User-agent: *
+Allow: https://interlux.site/
+Allow: http://interlux.site/
+Allow: interlux.site
+Allow: https://interlux.site/sitemap.xml
+Allow: http://interlux.site/sitemap.xml
+Allow: https://interlux.site/index.html
+Allow: http://interlux.site/index.html
+Allow: https://interlux.site/index_en.html
+Allow: http://interlux.site/index_en.html

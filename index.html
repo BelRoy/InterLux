@@ -23,9 +23,7 @@
 <!--<< Body Area >>-->
 
 <body>
-<body oncopy="return false">
-<body onselectstart="return false">
-<body oncontextmenu="return false">
+
    <!--<< Preloader >>-->
    <div class="preloader__Dixon">
       <div class="box text-center">
@@ -876,20 +874,7 @@
    <script src="assets/js/main.js"></script>
    <!--<< Main.js >>-->
 
-    <script>
-        document.addEventListener("keydown", function (event) {
-            if (event.ctrlKey && (event.key === "u" || event.key === "U" || event.key === "s" || event.key === "S")) {
-                event.preventDefault();
-            }
-            if (event.key === "F12" || (event.ctrlKey && event.shiftKey && event.key === "I")) {
-                event.preventDefault();
-            }
-        });
 
-        document.addEventListener("contextmenu", function (event) {
-            event.preventDefault();
-        });
-    </script>
     
 </body>
 
